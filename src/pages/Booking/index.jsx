@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../comonents/header";
+import Header from "../../components/header";
 import body from "../../assets/image/body.png";
 
 const Booking = () => {

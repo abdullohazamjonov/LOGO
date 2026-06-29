@@ -1,4 +1,4 @@
-import Header from "../../comonents/header";
+import Header from "../../components/Header";
 import body from "../../assets/image/body.png";
 
 const Menu = () => {

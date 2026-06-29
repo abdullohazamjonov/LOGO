@@ -1,10 +1,10 @@
-import Header from "../../comonents/header";
-import Hero from "../../comonents/hero";
-import Sidebar from "../../comonents/Sidebar"
-import Input from "../../comonents/Input"
-import Card from "../../comonents/Card"
-import Test from "../../comonents/Test"
-import Footer from "../../comonents/Footer"
+import Header from "../../components/Header/index";
+import Hero from "../../components/Hero/index";
+import Sidebar from "../../components/Sidebar"
+import Input from "../../components/Input"
+import Card from "../../components/Card"
+import Test from "../../components/Test"
+import Footer from "../../components/Footer"
 import body from "../../assets/image/body.png";
 import footer from "../../assets/image/footer.png";
 

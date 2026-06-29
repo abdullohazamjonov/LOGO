@@ -3,10 +3,10 @@ import logo from "../../assets/image/logo.svg"
 import flag from "../../assets/image/flag.svg"
 import { FaRegHeart } from "react-icons/fa";
 import { BsCart2 } from "react-icons/bs";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const Header = () => {
     return (
-        <div className='items-center inset-0 backdrop-blur-md bg-black/20'>
+        <div className='items-center inset-0 backdrop-blur-md bg-black/20 mb-4'>
             <div className='max-w-7xl mx-auto pt-5'>
                 <div className='flex items-center gap-160'>
                     <div className='flex items-center gap-10'>
@@ -22,7 +22,9 @@ const Header = () => {
                 </div>
                 <div className='max-w-7xl py-5 mx-auto bg-white/30 backdrop-blur-xl rounded-[50px] mt-14'>
                     <div className='flex justify-around items-center'>
-                        <img src={logo} alt="" />
+                        <Link to="/">
+                            <img src={logo} alt="" />
+                        </Link>
                         <nav>
                             <ul className="flex gap-9">
                                 <li>

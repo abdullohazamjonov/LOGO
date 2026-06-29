@@ -1,8 +1,9 @@
 import React from "react";
-import Header from "../../comonents/header";
+import Header from "../../components/header";
 import news1 from "../../assets/image/news_1.png"
 import news2 from "../../assets/image/news_2.png"
 import news3 from "../../assets/image/news_3.png"
+import body from '../../assets/image/body.png'
 
 const newsData = [
   {
